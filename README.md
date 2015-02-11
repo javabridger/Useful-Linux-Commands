@@ -20,3 +20,11 @@
 	5 == r-x == read / execute
 	6 == rw- == read / write
 	7 == rwx == read / write / execute
+
+#### Adding alias's to bashrc
+	vi ~/.bashrc
+	
+		alias ll='ls-al'
+		:wq
+
+	source ~/.bashrc
