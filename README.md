@@ -28,3 +28,7 @@
 		:wq
 
 	source ~/.bashrc
+
+#### Find Installed RPM
+	rpm -qa |grep -i <rpm>
+Note: The -i on grep will ignore case
