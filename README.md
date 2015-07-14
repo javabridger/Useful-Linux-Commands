@@ -13,6 +13,10 @@
 #### Count Files in a Directory
     ls -l | wc -l
 
+#### Get total directory size
+    du -hs /path/to/directory
+[http://askubuntu.com/questions/1224/how-do-i-determine-the-total-size-of-a-directory-folder-from-the-command-line](http://askubuntu.com/questions/1224/how-do-i-determine-the-total-size-of-a-directory-folder-from-the-command-line)
+
 #### chmod Number Codes 
     0 == --- == no access
 	1 == --x == execute
